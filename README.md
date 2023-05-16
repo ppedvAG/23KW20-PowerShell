@@ -18,3 +18,7 @@ Agenda:
 - Sortieren
 - Messen
 - Selektieren
+- Konfertieren
+- Importieren
+- Exportieren
+- Call Operator & DotSourcing
