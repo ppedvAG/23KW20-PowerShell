@@ -22,3 +22,6 @@ Agenda:
 - Importieren
 - Exportieren
 - Call Operator & DotSourcing
+- Filtern
+- Aufzählen
+- Schleifen
