@@ -63,8 +63,7 @@ if(Test-Path -Path $TestDirPath -PathType Container)
     }
     else
     {#ToDo Fehlerbehandlung
-        Write-Host -Object "Ordner bereits vorhanden"
-        exit
+        throw (Get-Item -Path $TestDirPath)
     }
 }
 

@@ -39,5 +39,10 @@ Agenda:
     - write-Debug
     - Skript Module
     - ModulManifest
-    
+    - Fehlerbehandlung
+        - Terminierende Fehler
+        - Nicht Terminierende FEhler
+        - try catch
+        - Error Variable / ErrorAction
+
     
