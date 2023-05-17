@@ -34,4 +34,7 @@ Agenda:
     - Verbose Ausgaben
     - Comment Based Help
     - Validates
+    - Advanced Parameters
+    - Functions
+    - write-Debug
     

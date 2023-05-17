@@ -22,13 +22,13 @@ Get-eventlog.ps1 -eventid 4625
 .LINK
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comment_based_help?view=powershell-5.1#syntax-for-comment-based-help-in-scripts
 #>
-[cmdletBinding()]
+[cmdletBinding(PositionalBinding=$false)]
 param(
 [ValidateScript({Test-NetConnection -ComputerName $PSItem -CommonTCPPort WinRm -InformationLevel Quiet})]
 [string]$Computername = $env:COMPUTERNAME,
 
 [ValidateSet(4624,4625,4634)]
-[Parameter(Mandatory=$true)]
+[Parameter(Mandatory=$true,HelpMessage="4624, 4625, 4634")]
 [int]$eventid,
 
 [ValidateRange(2,10)]
