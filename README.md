@@ -44,5 +44,8 @@ Agenda:
         - Nicht Terminierende FEhler
         - try catch
         - Error Variable / ErrorAction
-
+    - Class 
+    - Enum
+    - PowerShell Profile
+        - Prompts
     
