@@ -33,3 +33,5 @@ Agenda:
     - Pflicht Parameter & Default Werte
     - Verbose Ausgaben
     - Comment Based Help
+    - Validates
+    

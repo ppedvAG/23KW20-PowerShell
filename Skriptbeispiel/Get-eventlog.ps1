@@ -24,11 +24,14 @@ https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/ab
 #>
 [cmdletBinding()]
 param(
+[ValidateScript({Test-NetConnection -ComputerName $PSItem -CommonTCPPort WinRm -InformationLevel Quiet})]
 [string]$Computername = $env:COMPUTERNAME,
 
+[ValidateSet(4624,4625,4634)]
 [Parameter(Mandatory=$true)]
 [int]$eventid,
 
+[ValidateRange(2,10)]
 [int]$Newest = 5
 )
 
