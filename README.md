@@ -37,4 +37,7 @@ Agenda:
     - Advanced Parameters
     - Functions
     - write-Debug
+    - Skript Module
+    - ModulManifest
+    
     
