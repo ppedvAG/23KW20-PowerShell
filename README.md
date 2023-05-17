@@ -25,3 +25,10 @@ Agenda:
 - Filtern
 - Aufzählen
 - Schleifen
+- Variablen 2
+- PowerShell Provider
+- Skriptsicherheit
+- Scripting
+    - Simple Parameters
+    - Pflicht Parameter & Default Werte
+    - Verbose Ausgaben
