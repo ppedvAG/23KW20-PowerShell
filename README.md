@@ -32,3 +32,4 @@ Agenda:
     - Simple Parameters
     - Pflicht Parameter & Default Werte
     - Verbose Ausgaben
+    - Comment Based Help
