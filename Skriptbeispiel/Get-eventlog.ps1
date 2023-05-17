@@ -1,6 +1,6 @@
 ﻿[cmdletBinding()]
 param(
-[string]$Computername = "localhost",
+[string]$Computername = $env:COMPUTERNAME,
 
 [Parameter(Mandatory=$true)]
 [int]$eventid,
